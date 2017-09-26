@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+		Author:				George Haraksin
+		Last Revision Date:	May 11th, 2017
+		Company:			Pacific Advisors LLC
+		Supervisor:			Chris McMahan
+		Description:		This program is built to automate printer installation for Pacific Advisors' offices.
+							This helps display the web server and host downloads for the Newport Beach office.
+
+ PLEASE PUT ANY FUTURE CHANGES IN THE REVISION HISTORY ALONG WITH YOUR NAME AND DATE OF REVISION AND A SUMMARY OF
+ THE CHANGES YOU MADE
+
+ Revision History:  |    [DATE]      |       [NAME]          |               [DESCRIPTION]
+                    |    5/11/17     |   George Haraksin     |   The program is completed with varaibles             
+-->
+<html>
+<head>
+	<style>
+		table.center {
+			width:80%; 
+			margin-left:10%; 
+			margin-right:10%;
+		}
+		h1		{
+			color:rgb(88,132,153);
+			font-family:"Helvetica";
+		}
+		p		{
+			font-family:"Helvetica";
+			font-size: 150%;
+		}
+		p2		{
+			font-family:"Helvetica";
+			font-size: 110%;
+		}
+		.button {
+			background-color: #e7e7e7;
+			border: 2px solid #0e3659;
+			color: black;
+			padding: 5px 5px;
+			text-align: center;
+			text-decoration: underline;
+			display: block;
+			font-size: 16px;
+			width:20%;
+			margin:5px auto;
+		}
+		.button:hover {
+			background-color: #FFFFFF;
+			color: black;
+		}
+	</style>
+</head>
+	<body bgcolor="#0e3659">
+	<table class="center" style="text-align:center;" cellspacing="0" cellpadding="30">
+		<tbody>
+		<tr>
+		<td bgcolor="#FFFFFF">
+				<img src = "http://pa.solutions/r/PAlogoblueclose.png" alt = "Pacific Advisors" height = 159 width = 250 style = "text-align: center">
+				<h1>Newport Beach</h1>
+				<p style="text-align: left">Main:</p>
+					<a href = "Downloads/Windows/batchcommand1.zip" download><button class="button">Download for Windows</button></a>
+					<a href = "Downloads/Mac/bashcommand1.zip" download><button class="button">Download for Mac</button></a>
+				<p style="text-align: left">Black/White:</p>
+					<a href = "Downloads/Windows/batchcommand2.zip" download><button class="button">Download for Windows</button></a>
+					<a href = "Downloads/Mac/bashcommand2.zip" download><button class="button">Download for Mac</button></a>
+				<p style="text-align: left">Backup:</p>
+					<a href = "Downloads/Mac/bashcommand3.zip" download><button class="button">Download for Mac</button></a>
+				<p2 style="text-align: center;"><br>If you would like to access a printer not in your current office, please click <a href = "http://localhost/siteselect">here</a>.</p2>
+		</td>
+		</tr>
+		</tbody>
+	</table>
+	</body>
+</html>
