@@ -18,7 +18,7 @@ set driverPath=%currentPath%%driverLocation%
 set driverName=Kyocera Classic Universaldriver
 
 REM set printer IP and syntax IP_IP for configuring ports
-set IP=10.1.3.30
+set IP=[IPADDRESSHERE]
 set IP_=IP_
 set IP_IP=%IP_%%IP%
 
