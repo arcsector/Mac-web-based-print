@@ -11,7 +11,7 @@
     * Specify the IP address
     * Specify the name that you want to call the printer under the variable `$PRINTERNAME`
     * Specify the name you'd like to call the printer but without spaces this time under the variable `$PRINTERNAME`
-    * Specify the file path of the PPD without the actual name of the PPD; just the path right up to the folder under the variable $PPDPATH
+    * Specify the file path of the PPD without the actual name of the PPD; just the path right up to the folder under the variable `$PPDPATH`
     * Specify the name of the PPD with the file extension under the variable `$PPDNAME`
 4. ZIP the driver file and the batch/bash file for the printers up and be sure to get a naming scheme going so that your end users are staying consistent with their language.
 5. Edit the HTML Office Page file to reflect the file hierarchy in the anchor's `href` portion
