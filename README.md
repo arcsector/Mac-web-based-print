@@ -20,4 +20,4 @@
     * You can instead edit the `SiteSelect` HTML file to be the landing page. This is done easily by replacing the `localhost/exampleX` with whatever your site name and pages are that you'd like to redirect to.
     * You also, alternatively, just use the Office page to be a standalone page which hosts downloads for a single office.
 
-### The tested environment works in an apache http 2.4 server you can find instructions on how to set it up at [Apache's website](https://www.apache.org)
+### The tested environment works in an apache httpd 2.4 server you can find instructions on how to set it up at [Apache's website](https://www.apache.org)
