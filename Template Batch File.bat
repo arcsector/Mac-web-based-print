@@ -1,17 +1,16 @@
 @Echo Off
 REM---------------------------------------------------------------------------------------------------------------------REM
-REM		Author:				George Haraksin                                                                             REM
-REM		Last Revision Date:	March 14th, 2017                                                                            REM
-REM		Company:			Pacific Advisors LLC                                                                        REM
-REM		Supervisor:			Chris McMahan                                                                               REM
-REM		Description:		This program is built to automate printer installation for Pacific Advisors' offices.       REM
-REM							It configures an IP port, installs the driver, and then installs the printer.               REM
+REM		Author:				George Haraksin                                                                                     REM
+REM		Last Revision Date:	March 14th, 2017                                                                              REM
+REM		                                                                                                                  REM
+REM		Description:		This program is built to automate printer installation for offices.                               REM
+REM							It configures an IP port, installs the driver, and then installs the printer.                           REM
 REM                                                                                                                     REM
 REM PLEASE PUT ANY FUTURE CHANGES IN THE REVISION HISTORY ALONG WITH YOUR NAME AND DATE OF REVISION AND A SUMMARY OF    REM
 REM THE CHANGES YOU MADE                                                                                                REM
 REM                                                                                                                     REM
 REM Revision History:  |    [DATE]      |       [NAME]          |               [DESCRIPTION]                           REM
-REM                    |    3/16/17     |   George Haraksin     |   The program is completed with varaibles             REM
+REM                    |    3/16/17     |   arcsector           |   The program is completed with varaibles             REM
 REM---------------------------------------------------------------------------------------------------------------------REM
 
 REM get current file path for driver reference location
