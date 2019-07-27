@@ -1,6 +1,6 @@
 @Echo Off
 REM---------------------------------------------------------------------------------------------------------------------REM
-REM		Author:				George Haraksin                                                                                     REM
+REM		Author:				arcsector                                                                                           REM
 REM		Last Revision Date:	March 14th, 2017                                                                              REM
 REM		                                                                                                                  REM
 REM		Description:		This program is built to automate printer installation for offices.                               REM
